@@ -182,10 +182,10 @@ main {
 
 @media (max-width: 635px) {
   .result {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .result__statistics {
-    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .btnClose {
     width: 35px;
@@ -201,10 +201,9 @@ main {
   .result__statistics .resultName img {
     width: 200px;
   }
-  .personData{
+  .personData {
     display: flex;
     flex-direction: column;
     padding: 5px;
   }
-  
 }
