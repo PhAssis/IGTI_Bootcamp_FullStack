@@ -186,8 +186,12 @@ main {
   }
   .result__statistics {
     margin-bottom: 10px;
+    order: 1;
   }
-  .btnClose {
+  .result__users{
+    order: 0;
+  }
+   .btnClose {
     width: 35px;
     height: 35px;
     font-size: 10px;
